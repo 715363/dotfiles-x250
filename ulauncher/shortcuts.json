@@ -1,0 +1,42 @@
+{
+    "f3716739-abb3-48e6-ba8a-00fe1f076bd1": {
+        "id": "f3716739-abb3-48e6-ba8a-00fe1f076bd1",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616536534.689069
+    },
+    "1a47d189-9635-4cb0-94cd-adfb8bc3a7c2": {
+        "id": "1a47d189-9635-4cb0-94cd-adfb8bc3a7c2",
+        "name": "ArchWiki",
+        "keyword": "aw",
+        "cmd": "https://wiki.archlinux.org/index.php?search=%s",
+        "icon": "~/.icons/91e41fc883ad75e0b10f6405720b222e_icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616537906.2501879
+    },
+    "fcb358a2-c422-47c2-a21f-c4bf87f4a1d1": {
+        "id": "fcb358a2-c422-47c2-a21f-c4bf87f4a1d1",
+        "name": "DuckDuckGo",
+        "keyword": "d",
+        "cmd": "https://duckduckgo.com/?t=ffab&q=%s",
+        "icon": "~/.icons/102984_duckduckgo_512x512.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616538587.255955
+    },
+    "4d6d5ff5-69c6-41a9-bfae-56baf7e399d3": {
+        "id": "4d6d5ff5-69c6-41a9-bfae-56baf7e399d3",
+        "name": "YouTube",
+        "keyword": "yt",
+        "cmd": "https://www.youtube.com/results?search_query=%s",
+        "icon": "~/.icons/white-youtube-play-button-png.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1616541592.107287
+    }
+}
