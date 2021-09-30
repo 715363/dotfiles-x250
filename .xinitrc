@@ -1,8 +1,8 @@
 #[gnome]
 
-export XDG_SESSION_TYPE=x11
-export GDK_SESSION_BACKEND
-exec gnome-session
+#export XDG_SESSION_TYPE=x11
+#export GDK_SESSION_BACKEND
+#exec gnome-session
 
 #[plasma]
 
@@ -11,8 +11,8 @@ exec gnome-session
 
 #[i3]
 
-#feh --bg-scale ~/Pictures/nord.png
-#exec i3
+feh --bg-scale ~/Pictures/nord.png
+exec i3
 
 #[openbox]
 
