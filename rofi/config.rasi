@@ -56,10 +56,10 @@ fake-transparency: true;
 /*	click-to-exit: true;*/
 /*	show-match: true;*/
 /*	theme: ;*/
-color-normal: "argb:00000000, argb:99A0A0A0, argb:00000000, argb:99D0D0D0, argb:FF000000";
-color-urgent: "argb:FF000000, #f43753, argb:99000000, argb:99000000, #e29a49";
-color-active: "argb:FF000000, #49bbfb, argb:99000000, argb:99000000, #e29a49";
-color-window: "argb:88000000, #000000, #000000, #000000";
+ color-normal: "#1c2023, #919ba0, #1c2023, #a4a4a4, #1c2023";
+ color-urgent: "argb:00000000, #f43753, argb:00000000, argb:00000000, #e29a49";
+ color-active: "argb:00000000, #49bbfb, argb:00000000, argb:00000000, #e29a49";
+ color-window: "#1c2023, #919ba0, #1c2023";
 /*	max-history-size: 25;*/
 /*	combi-hide-mode-prefix: false;*/
 /*	matching-negate-char: '-' /* unsupported */;*/
@@ -150,3 +150,4 @@ color-window: "argb:88000000, #000000, #000000, #000000";
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
 }
+@theme "/home/zmtg/.config/rofi/themes/zmtg.rasi"
