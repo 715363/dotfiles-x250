@@ -1,6 +1,6 @@
 * {
     /* Dracula theme colour palette */
-    drac-bgd: #282a36;
+    drac-bgd: #22282a36;
     drac-cur: #44475a;
     drac-fgd: #f8f8f2;
     drac-cmt: #6272a4;
