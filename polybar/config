@@ -1,12 +1,13 @@
 [colors]
 ;background = ${xrdb:color0:#222}
-nord0 = #2e3440
-nord1 = #3b4252
-nord2 = #434c5e
-nord3 = #4c566a
-nord4 = #d8dee9
-nord5 = #d8dee9
-nord6 = #eceff4
+0 = #21222c
+1 = #44475a
+2 = #282a36
+3 = #4c566a
+4 = #f8f8f2
+5 = #69ff94
+6 = #f8f8f2
+7 = #6272a4
 foreground = #ffffff
 foreground-alt = #abb2bf
 primary =  #1B5366
@@ -22,8 +23,8 @@ height = 14
 radius = 0
 fixed-center = true
 
-background = ${colors.nord0}
-foreground = ${colors.nord4}
+background = ${colors.0}
+foreground = ${colors.4}
 
 line-size = 3
 line-color = #f00
@@ -49,7 +50,7 @@ modules-right = arrow1 cpu arrow2 memory arrow3 alsa arrow4 battery arrow6
 
 tray-position = right
 tray-padding = 2
-tray-background = ${colors.nord2}
+tray-background = ${colors.2}
 tray-reparent = true
 
 ;wm-restack = bspwm
@@ -69,7 +70,7 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
-format-background = ${colors.nord1}
+format-background = ${colors.1}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -130,18 +131,19 @@ wrapping-scroll = false
 
 label-mode-padding = 2
 label-mode-foreground = ${colors.foreground}
-label-mode-background = ${colors.nord2}
+label-mode-background = ${colors.2}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-background = ${colors.nord3}
-;label-focused-underline = ${colors.nord2}
+label-focused-background = ${colors.1}
+label-focused-foreground = ${colors.4}
+;label-focused-underline = ${colors.2}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %index%
 label-unfocused-padding = 2
-label-unfocused-background = ${colors.nord2}
+label-unfocused-background = ${colors.2}
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
@@ -199,7 +201,7 @@ interval = 2
 #format-prefix-foreground = ${colors.foreground-alt}
 format-underline =
 label =CPU: %percentage:2%%
-format-background = ${colors.nord2}
+format-background = ${colors.2}
 
 [module/memory]
 type = internal/memory
@@ -208,7 +210,7 @@ interval = 2
 #format-prefix-foreground = ${colors.foreground-alt}
 #format-underline = #4bffdc
 label =RAM: %percentage_used%%
-format-background = ${colors.nord2}
+format-background = ${colors.2}
 
 [module/wlan]
 type = internal/network
@@ -255,8 +257,8 @@ date = " %a %b %d %Y"
 date-alt = " %a %b %d %Y"
 time = %l:%M%p
 time-alt = %l:%M%p
-format-background = ${colors.nord0}
-;format-foreground = #FFFFFF
+format-background = ${colors.0}
+format-foreground = ${colors.6}
 label = "%date% %time% "
 
 [module/pulseaudio]
@@ -295,18 +297,18 @@ label-volume-foreground = ${root.foreground}
 
 ;format-muted-prefix = " "
 ;format-muted-foreground = #ffffff
-format-muted-background = ${colors.nord1}
+format-muted-background = ${colors.1}
 label-muted = sound muted
 ;─×―
-format-volume-background = ${colors.nord1}
+format-volume-background = ${colors.1}
 bar-volume-width = 5
-bar-volume-foreground-0 = ${colors.nord4}
-bar-volume-foreground-1 = ${colors.nord4}
-bar-volume-foreground-2 = ${colors.nord4}
-bar-volume-foreground-3 = ${colors.nord4}
-bar-volume-foreground-4 = ${colors.nord4}
-bar-volume-foreground-5 = ${colors.nord5}
-bar-volume-foreground-6 = ${colors.nord6}
+bar-volume-foreground-0 = ${colors.4}
+bar-volume-foreground-1 = ${colors.4}
+bar-volume-foreground-2 = ${colors.4}
+bar-volume-foreground-3 = ${colors.4}
+bar-volume-foreground-4 = ${colors.4}
+bar-volume-foreground-5 = ${colors.5}
+bar-volume-foreground-6 = ${colors.6}
 bar-volume-gradient = false
 bar-volume-indicator = •
 bar-volume-indicator-font = 2
@@ -325,20 +327,20 @@ full-at = 100
 format-charging = <animation-charging> <label-charging>
 label-charging =  charging: %percentage%%
 ;format-charging-foreground = ${colors.foreground}
-format-charging-background = ${colors.nord1}
+format-charging-background = ${colors.1}
 #format-charging-underline = #00a3c725
 
 format-discharging = <ramp-capacity> <label-discharging>
 label-discharging = discharging %percentage%%
 #format-discharging-underline = #
 ;format-discharging-foreground = ${colors.foreground}
-format-discharging-background = ${colors.nord1}
+format-discharging-background = ${colors.1}
 
 format-full-prefix = "fullpower "
 ;format-full-prefix-foreground = #ffffff
 #format-full-underline = #00a3c725
 format-full-foreground = ${colors.foreground}
-format-full-background = ${colors.nord1}
+format-full-background = ${colors.1}
 
 ramp-capacity-0 =
 ramp-capacity-1 =
@@ -423,61 +425,61 @@ margin-bottom = 5
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord0}
+content-foreground = ${colors.2}
+content-background = ${colors.0}
 
 [module/arrow2]
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord2}
+content-foreground = ${colors.2}
+content-background = ${colors.2}
 
 [module/arrow3]
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.nord1}
-content-background = ${colors.nord2}
+content-foreground = ${colors.1}
+content-background = ${colors.2}
 
 [module/arrow4]
 type = custom/text
 content = "%{T2}%{T-}"
 content-font = 2
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord1}
+content-foreground = ${colors.2}
+content-background = ${colors.1}
 
 [module/arrow5]
 type = custom/text
 content = "%{T2}%{T-}"
 content-font = 4
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord1}
+content-foreground = ${colors.2}
+content-background = ${colors.1}
 
 [module/arrow6]
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord1}
+content-foreground = ${colors.2}
+content-background = ${colors.1}
 
 [module/arrow7]
 type= custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord1}
+content-foreground = ${colors.2}
+content-background = ${colors.1}
 
 [module/arrowblank]
 type= custom/text
 content = "%{T2}%{T-}"
 content-font = 2
-content-foreground = ${colors.nord2}
-content-background = ${colors.nord2}
+content-foreground = ${colors.2}
+content-background = ${colors.2}
 
 [module/arrow8]
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.nord1}
-content-background = ${colors.nord0}
+content-foreground = ${colors.1}
+content-background = ${colors.0}

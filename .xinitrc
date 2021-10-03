@@ -11,7 +11,7 @@
 
 #[i3]
 
-feh --bg-scale ~/Pictures/nord.png
+feh --bg-scale ~/Pictures/dracula-arch.png
 exec i3
 
 #[openbox]
