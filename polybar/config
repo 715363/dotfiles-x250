@@ -295,7 +295,7 @@ label-volume-foreground = ${root.foreground}
 
 ;format-muted-prefix = " "
 ;format-muted-foreground = #ffffff
-format-muted-background = #292929
+format-muted-background = ${colors.nord1}
 label-muted = sound muted
 ;─×―
 format-volume-background = ${colors.nord1}
