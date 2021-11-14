@@ -15,7 +15,7 @@ fi
 cp -r  $HOME/.config/{alacritty,gtk*,i3,kitty,neofetch,oh-my-zsh,picom,polybar,rofi} $HOME/dotfiles/
 
 # copy other dot files
-cp  $HOME/{.zshrc,.xinitrc} $HOME/dotfiles
+cp -r $HOME/{.zshrc,.xinitrc,.moc} $HOME/dotfiles
 
 
 
