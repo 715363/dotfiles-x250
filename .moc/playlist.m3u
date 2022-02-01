@@ -1,62 +1,36 @@
 #EXTM3U
-#MOCSERIAL: 256
-#EXTINF:155,1 Agathocles - Bastard Breed (Intro) Scorn Of Humanity (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/01 Bastard Breed (Intro) Scorn Of Hu.mp3
-#EXTINF:79,2 Agathocles - Sentimental Hypocrisy (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/02 Sentimental Hypocrisy.mp3
-#EXTINF:113,3 Agathocles - Megalomanic Stupidity (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/03 Megalomanic Stupidity.mp3
-#EXTINF:142,4 Agathocles - Hangman's Dance (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/04 Hangman's Dance.mp3
-#EXTINF:253,5 Agathocles - Black Clouds Determinate (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/05 Black Clouds Determinate.mp3
-#EXTINF:86,6 Agathocles - Ubermensch Hilarity (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/06 Ubermensch Hilarity.mp3
-#EXTINF:134,7 Agathocles - Triple Murder Flesh (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/07 Triple Murder Flesh.mp3
-#EXTINF:48,8 Agathocles - Europe's Fairy Tale (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/08 Europe's Fairy Tale.mp3
-#EXTINF:184,9 Agathocles - Musicianship - Musicianshit (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/09 Musicianship - Musicianshit.mp3
-#EXTINF:112,10 Agathocles - Confront Your Image (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/10 Confront Your Image.mp3
-#EXTINF:200,11 Agathocles - Mister Hardcore Syndrome (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/11 Mister Hardcore Syndrome.mp3
-#EXTINF:106,12 Agathocles - For White Lies (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/12 For White Lies.mp3
-#EXTINF:185,13 Agathocles - Technological Boom - Technolical Doom (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/13 Technological Boom - Technolical.mp3
-#EXTINF:58,14 Agathocles - Destroy To Create (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/14 Destroy To Create.mp3
-#EXTINF:150,15 Agathocles - Bigheaded Bastard (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/15 Bigheaded Bastard.mp3
-#EXTINF:274,16 Agathocles - Hate Birth (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/16 Hate Birth.mp3
-#EXTINF:232,17 Agathocles - Sieg Shit (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/17 Sieg Shit.mp3
-#EXTINF:78,18 Agathocles - Well Of Happiness (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/18 Well Of Happiness.mp3
-#EXTINF:111,19 Agathocles - Birds (Poem), Agarchy (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/19 Birds (Poem), Agarchy.mp3
-#EXTINF:185,20 Agathocles - Theatric Symbolisation Of Life (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/20 Theatric Symbolisation Of Life.mp3
-#EXTINF:153,21 Agathocles - Bigheaded Bastard (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/21 Bigheaded Bastard.mp3
-#EXTINF:274,22 Agathocles - Lack Of Personality (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/22 Lack Of Personality.mp3
-#EXTINF:173,23 Agathocles - Squeeze Anton (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/23 Squeeze Anton.mp3
-#EXTINF:111,24 Agathocles - What Mankind Creates (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/24 What Mankind Creates.mp3
-#EXTINF:81,25 Agathocles - Distrust And Abuse (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/25 Distrust And Abuse.mp3
-#EXTINF:119,26 Agathocles - Teachers (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/26 Teachers.mp3
-#EXTINF:62,27 Agathocles - Hideous Headchopping (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/27 Hideous Headchopping.mp3
-#EXTINF:23,28 Agathocles - Mutilated Regurgitator (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/28 Mutilated Regurgitator.mp3
-#EXTINF:96,29 Agathocles - Get Off Your Ass (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/29 Get Off Your Ass.mp3
-#EXTINF:206,30 Agathocles - Hate Birth (Black Clouds Determinate)
-/home/zmtg/Music/Agathocles/Black Clouds Determinate/30 Hate Birth.mp3
+#MOCSERIAL: 512
+#EXTINF:264,1 Bone Thugs-N-Harmony - Da Introduction (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/01 Da Introduction.mp3
+#EXTINF:261,2 Bone Thugs-N-Harmony - East 1999 (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/02 East 1999.mp3
+#EXTINF:243,3 Bone Thugs-N-Harmony - Eternal (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/03 Eternal.mp3
+#EXTINF:303,4 Bone Thugs-N-Harmony - Crept and We Came (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/04 Crept and We Came.mp3
+#EXTINF:289,5 Bone Thugs-N-Harmony - Down '71 (The Getaway) (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/05 Down '71 (The Getaway).mp3
+#EXTINF:300,6 Bone Thugs-N-Harmony - Mr. Bill Collector (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/06 Mr. Bill Collector.mp3
+#EXTINF:211,7 Bone Thugs-N-Harmony - Budsmokers Only (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/07 Budsmokers Only.mp3
+#EXTINF:222,8 Bone Thugs-N-Harmony - Crossroad (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/08 Crossroad.mp3
+#EXTINF:55,9 Bone Thugs-N-Harmony - Me Killa (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/09 Me Killa.mp3
+#EXTINF:185,10 Bone Thugs-N-Harmony - Land of Tha Heartless (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/10 Land of Tha Heartless.mp3
+#EXTINF:291,11 Bone Thugs-N-Harmony - No Shorts, No Losses (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/11 No Shorts, No Losses.mp3
+#EXTINF:313,12 Bone Thugs-N-Harmony - 1st of tha Month (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/12 1st of tha Month.mp3
+#EXTINF:282,13 Bone Thugs-N-Harmony - Buddah Lovaz (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/13 Buddah Lovaz.mp3
+#EXTINF:171,14 Bone Thugs-N-Harmony - Die Die Die (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/14 Die Die Die.mp3
+#EXTINF:76,15 Bone Thugs-N-Harmony - Mr. Ouija 2 (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/15 Mr. Ouija 2.mp3
+#EXTINF:344,16 Bone Thugs-N-Harmony - Mo' Murda (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/16 Mo' Murda.mp3
+#EXTINF:280,17 Bone Thugs-N-Harmony - Shotz to Tha Double Glock (E 1999 Eternal)
+/home/zmtg/Music/Bone Thugs-N-Harmony/E 1999 Eternal/17 Shotz to Tha Double Glock.mp3

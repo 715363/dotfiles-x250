@@ -1,11 +1,11 @@
 [colors]
 ;background = ${xrdb:color0:#222}
-0 = #00000000
-1 = #44475a
-2 = #282a36
-3 = #4c566a
-4 = #f8f8f2
-5 = #69ff94
+0 = ${xrdb:color0:#222}
+1 = ${xrdb:color5:#222}
+2 = ${xrdb:color4:#222}
+3 = ${xrdb:color3:#222}
+4 = ${xrdb:color7:#222}
+5 = ${xrdb:color8:#222}
 6 = #f8f8f2
 7 = #6272a4
 foreground = #ffffff
@@ -24,7 +24,7 @@ radius = 0
 fixed-center = true
 
 background = ${colors.0}
-foreground = ${colors.4}
+foreground = ${colors.0}
 
 line-size = 3
 line-color = #f00
@@ -136,7 +136,7 @@ label-mode-background = ${colors.2}
 ; focused = Active workspace on focused monitor
 label-focused = %index%
 label-focused-background = ${colors.1}
-label-focused-foreground = ${colors.4}
+label-focused-foreground = ${colors.forground}
 ;label-focused-underline = ${colors.2}
 label-focused-padding = 2
 
@@ -258,7 +258,7 @@ date-alt = " %a %b %d %Y"
 time = %l:%M%p
 time-alt = %l:%M%p
 format-background = ${colors.0}
-format-foreground = ${colors.6}
+format-foreground = ${colors.4}
 label = "%date% %time% "
 
 [module/pulseaudio]
@@ -275,13 +275,13 @@ label-muted = sound muted
 ;─×―
 format-volume-background = ${colors.1}
 bar-volume-width = 5
-bar-volume-foreground-0 = ${colors.4}
-bar-volume-foreground-1 = ${colors.4}
-bar-volume-foreground-2 = ${colors.4}
-bar-volume-foreground-3 = ${colors.4}
-bar-volume-foreground-4 = ${colors.4}
-bar-volume-foreground-5 = ${colors.4}
-bar-volume-foreground-6 = ${colors.6}
+bar-volume-foreground-0 = ${colors.0}
+bar-volume-foreground-1 = ${colors.0}
+bar-volume-foreground-2 = ${colors.0}
+bar-volume-foreground-3 = ${colors.0}
+bar-volume-foreground-4 = ${colors.0}
+bar-volume-foreground-5 = ${colors.0}
+bar-volume-foreground-6 = ${colors.0}
 bar-volume-gradient = false
 bar-volume-indicator = •
 bar-volume-indicator-font = 2
@@ -322,7 +322,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
+battery = BAT0
 adapter = AC0
 full-at = 100
 

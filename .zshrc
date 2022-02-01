@@ -108,3 +108,8 @@ alias scrot="scrot -d 3 -c"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+wiki() {
+    search_term="${1}"
+    lynx https://wiki.archlinux.org/index.php?search=${search_term}
+}

@@ -46,7 +46,7 @@ font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
 modules-left = i3 arrow7 xwindow arrow8
 modules-center = date
-modules-right = arrow1 cpu arrow2 memory arrow3 alsa arrow4 battery arrow6
+modules-right = arrow1 cpu arrow2 memory arrow3 pulseaudio arrow4 battery arrow6
 
 tray-position = right
 tray-padding = 2
@@ -265,29 +265,31 @@ label = "%date% %time% "
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
+label-volume = VOL
 label-volume-foreground = ${root.foreground}
 
-label-muted = 🔇 muted
-label-muted-foreground = #666
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+;format-muted-prefix = " "
+;format-muted-foreground = #ffffff
+format-muted-background = ${colors.1}
+label-muted = sound muted
+;─×―
+format-volume-background = ${colors.1}
+bar-volume-width = 5
+bar-volume-foreground-0 = ${colors.4}
+bar-volume-foreground-1 = ${colors.4}
+bar-volume-foreground-2 = ${colors.4}
+bar-volume-foreground-3 = ${colors.4}
+bar-volume-foreground-4 = ${colors.4}
+bar-volume-foreground-5 = ${colors.4}
+bar-volume-foreground-6 = ${colors.6}
 bar-volume-gradient = false
-bar-volume-indicator = |
+bar-volume-indicator = •
 bar-volume-indicator-font = 2
 bar-volume-fill = ─
 bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
-
 [module/alsa]
 type = internal/alsa
 
