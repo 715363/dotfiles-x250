@@ -17,10 +17,10 @@ alert =
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 14
+height = 15
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 0
+radius = 1
 fixed-center = true
 
 background = ${colors.0}
@@ -44,13 +44,13 @@ font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
 font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
 font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
-modules-left = i3 arrow7 xwindow arrow8
-modules-center = date
+modules-left = circle2 i3 arrow7 xwindow arrow8
+modules-center = arrow1 date arrow8
 modules-right = arrow1 cpu arrow2 memory arrow3 pulseaudio arrow4 battery arrow6
 
 tray-position = right
-tray-padding = 2
-tray-background = ${colors.2}
+tray-padding = 10
+tray-background = ${colors.0}
 tray-reparent = true
 
 ;wm-restack = bspwm
@@ -70,7 +70,7 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
-format-background = ${colors.1}
+format-background = ${colors.2}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -129,26 +129,27 @@ wrapping-scroll = false
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
-label-mode-padding = 2
-label-mode-foreground = ${colors.foreground}
-label-mode-background = ${colors.2}
+label-mode-padding = 0
+label-mode-foreground = ${colors.4}
+label-mode-background = ${colors.1}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
 label-focused-background = ${colors.1}
 label-focused-foreground = ${colors.4}
-;label-focused-underline = ${colors.2}
+label-focused-underline = #bd93f9
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %index%
 label-unfocused-padding = 2
-label-unfocused-background = ${colors.2}
+label-unfocused-background = ${colors.1}
+label-unfocused-forground = ${colors.2}
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
 label-visible-background = #494949
-label-visible-padding = 0
+label-visible-padding = 2
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %index%
@@ -156,7 +157,15 @@ label-urgent-background = #808080
 label-urgent-padding = 2
 
 ; Separator in between workspaces
-; label-separator = |
+;label-separator =  X
+;label-serarator-foreground = #000000
+;label-separator-background = #8888888
+;label-separator-padding = 0
+
+;label-visible = %index%
+;label-visible = %name%
+;label-visible-foreground = #55
+;label-visible-padding = 2
 
 
 [module/mpd]
@@ -257,7 +266,7 @@ date = " %a %b %d %Y"
 date-alt = " %a %b %d %Y"
 time = %l:%M%p
 time-alt = %l:%M%p
-format-background = ${colors.0}
+format-background = ${colors.2}
 format-foreground = ${colors.6}
 label = "%date% %time% "
 
@@ -322,7 +331,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
+battery = BAT0
 adapter = AC0
 full-at = 100
 
@@ -425,7 +434,7 @@ margin-bottom = 5
 
 [module/arrow1]
 type = custom/text
-content = "%{T2} %{T-}"
+content = "%{T2} %{T-}"
 content-font = 2
 content-foreground = ${colors.2}
 content-background = ${colors.0}
@@ -439,49 +448,61 @@ content-background = ${colors.2}
 
 [module/arrow3]
 type = custom/text
-content = "%{T2} %{T-}"
+content = "%{T2} %{T-}"
 content-font = 2
 content-foreground = ${colors.1}
 content-background = ${colors.2}
 
 [module/arrow4]
 type = custom/text
-content = "%{T2}%{T-}"
+content = "%{T2}%{T-}"
 content-font = 2
 content-foreground = ${colors.2}
 content-background = ${colors.1}
 
 [module/arrow5]
 type = custom/text
-content = "%{T2}%{T-}"
+content = "%{T2}%{T-}"
 content-font = 4
 content-foreground = ${colors.2}
 content-background = ${colors.1}
 
 [module/arrow6]
 type = custom/text
-content = "%{T2} %{T-}"
+content = "%{T2}  %{T-}"
 content-font = 2
-content-foreground = ${colors.2}
-content-background = ${colors.1}
+content-foreground = ${colors.1}
+content-background = ${colors.0}
 
 [module/arrow7]
 type= custom/text
-content = "%{T2} %{T-}"
+content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = ${colors.2}
-content-background = ${colors.1}
+content-foreground = ${colors.1}
+content-background = ${colors.2}
 
 [module/arrowblank]
 type= custom/text
-content = "%{T2}%{T-}"
+content = "%{T2}%{T-}"
 content-font = 2
 content-foreground = ${colors.2}
 content-background = ${colors.2}
 
 [module/arrow8]
 type = custom/text
-content = "%{T2} %{T-}"
+content = "%{T2} %{T-}"
 content-font = 2
+content-foreground = ${colors.2}
+content-background = ${colors.0}
+
+[module/circle1]
+type = custom/text
+content = "%{T2} %{T-}"
+content-foreground = ${colors.2}
+content-background = ${colors.0}
+
+[module/circle2]
+type = custom/text
+content = "%{T2} %{T-}"
 content-foreground = ${colors.1}
 content-background = ${colors.0}

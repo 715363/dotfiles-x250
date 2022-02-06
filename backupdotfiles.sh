@@ -12,10 +12,10 @@ fi
 
 
 # copy Vs-Code files
-cp -r  /home/zmtg/.config/{alacritty,gtk*,i3,kitty,neofetch,oh-my-zsh,picom,polybar,rofi} /home/zmtg/dotfiles/
+cp -r  /home/zmtg/.config/{gtk*,i3,kitty,neofetch,picom,polybar,rofi,oh-my-zsh} /home/zmtg/dotfiles-x250/
 
 # copy other dot files
-cp -r /home/zmtg/{.zshrc,.xinitrc,.moc} /home/zmtg/dotfiles
+cp -r /home/zmtg/{.zshrc,.moc} /home/zmtg/dotfiles-x250
 
 
 

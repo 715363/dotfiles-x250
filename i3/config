@@ -23,7 +23,7 @@ exec kitty
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
-default_border pixel 0
+default_border pixel 1
 hide_edge_borders both
 # i3 config file (v4)
 #
