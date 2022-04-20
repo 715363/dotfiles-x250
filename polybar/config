@@ -264,7 +264,7 @@ type = internal/date
 interval = 5
 date = " %a %b %d %Y"
 date-alt = " %a %b %d %Y"
-time = %l:%M%p
+time = %H:%M%
 time-alt = %l:%M%p
 format-background = ${colors.2}
 format-foreground = ${colors.6}
@@ -331,7 +331,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT0
+battery = BAT1
 adapter = AC0
 full-at = 100
 
