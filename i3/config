@@ -13,6 +13,7 @@ exec feh --no-startup-id --bg-scale ~/Pictures/wp.png
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 #exec polybar example
 #exec wal -i ~/Pictures/wp.png
+exec ~/git/lean-conky-config/start-lcc.sh
 exec nm-applet
 exec blueman-applet
 exec kitty
