@@ -46,7 +46,7 @@ font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
 modules-left = circle2 i3 arrow7 xwindow arrow8
 modules-center = arrow1 date arrow8
-modules-right = arrow1 cpu-temp arrow3 pulseaudio arrow4 battery arrow6
+modules-right = arrow1 cpu-temp arrow3 pulseaudio arrow4 battery1 arrowblank battery0 arrow6
 
 tray-position = right
 tray-padding = 10
@@ -340,20 +340,60 @@ bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
-[module/battery]
+[module/battery0]
+type = internal/battery
+battery = BAT0
+adapter = AC0
+full-at = 100
+
+format-charging = <label-charging>
+label-charging =  BAT0:%percentage%%
+;format-charging-foreground = ${colors.foreground}
+format-charging-background = ${colors.1}
+#format-charging-underline = #00a3c725
+
+format-discharging = <label-discharging>
+label-discharging = BAT0:%percentage%%
+#format-discharging-underline = #
+;format-discharging-foreground = ${colors.foreground}
+format-discharging-background = ${colors.1}
+
+format-full-prefix = "fullpower "
+;format-full-prefix-foreground = #ffffff
+#format-full-underline = #00a3c725
+format-full-foreground = ${colors.foreground}
+format-full-background = ${colors.1}
+
+ramp-capacity-0 =
+ramp-capacity-1 =
+ramp-capacity-2 =
+ramp-capacity-3 =
+ramp-capacity-4 =
+ramp-capacity-foreground = #384a61
+
+animation-charging-0 =
+animation-charging-1 =
+animation-charging-2 =
+animation-charging-3 =
+animation-charging-4 =
+animation-charging-foreground = #384a61
+animation-charging-framerate = 750
+
+ 
+[module/battery1]
 type = internal/battery
 battery = BAT1
 adapter = AC0
 full-at = 100
 
-format-charging = <animation-charging> <label-charging>
-label-charging =  charging: %percentage%%
+format-charging = <label-charging>
+label-charging =  charging BAT1:%percentage%%
 ;format-charging-foreground = ${colors.foreground}
 format-charging-background = ${colors.1}
 #format-charging-underline = #00a3c725
 
-format-discharging = <ramp-capacity> <label-discharging>
-label-discharging = discharging %percentage%%
+format-discharging = <label-discharging>
+label-discharging = discharging BAT1:%percentage%%
 #format-discharging-underline = #
 ;format-discharging-foreground = ${colors.foreground}
 format-discharging-background = ${colors.1}
@@ -493,6 +533,13 @@ content-foreground = ${colors.1}
 content-background = ${colors.2}
 
 [module/arrowblank]
+type= custom/text
+content = "%{T2}%{T-}"
+content-font = 2
+content-foreground = ${colors.1}
+content-background = ${colors.1}
+
+[module/arrowblank1]
 type= custom/text
 content = "%{T2}%{T-}"
 content-font = 2
