@@ -99,6 +99,21 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias scrot="scrot -d 3 -c -F 'scrot-%Y-%m-%d-%H:%M:%S_$wx$h.png'"
+
+alias nas="ssh sync@192.168.0.6"
+
+alias plex="ssh zmtg@192.168.0.7"
+
+alias pihole="ssh pi@192.168.0.4"
+
+alias octopi="ssh pi@192.168.0.12"
+
+alias proxmox="ssh root@192.168.0.8"
+
+alias torrentbox="ssh zmtg@192.168.0.102"
+
+alias plex2="ssh zmtg@192.168.0.17"
 
 source $HOME/.oh-my-zsh/plugins/calc/calc.plugin.zsh

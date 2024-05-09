@@ -139,7 +139,7 @@ local TPL_IFACE =
 T_ [[${if_existing /sys/class/net/<IFACE>/operstate up}#
 ${lua font icon_s  ${voffset $sr{-1}}${font :size=$sc{7}}▼}${font}  ${downspeed <IFACE>} ${alignc $sr{-22}}${lua font h2 {<IFACE>}}${font}#
 ${alignr}${upspeed <IFACE>} ${lua font icon_s  ${voffset $sr{-2}}${font :size=$sc{7}}▲}${font}
-${color3}${downspeedgraph <IFACE> $sr{32},$sr{130}} ${alignr}${upspeedgraph <IFACE> $sr{32},$sr{130} }${color}#
+${color3}${downspeedgraph <IFACE> $sr{32},$sr{130}} ${alignr}${upspeedgraph <IFACE> $sr{32},$sr{130}}${color}#
 ${endif}]]
 
 local function _conky_ifaces()

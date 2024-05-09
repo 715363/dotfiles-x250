@@ -124,7 +124,7 @@ MusicDir = /home/Music
 # Sound driver - OSS, ALSA, JACK, SNDIO (on OpenBSD) or null (only for
 # debugging).  You can enter more than one driver as a colon-separated
 # list.  The first working driver will be used.
-#SoundDriver = JACK:ALSA:OSS
+SoundDriver = ALSA:OSS:JACK
 
 # Jack output settings.
 #JackClientName = "moc"
